@@ -35,7 +35,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_DEVICE := X01BD
 PRODUCT_NAME := omni_X01BD
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := Asus Zenfone Max Pro M2
+PRODUCT_MODEL := Zenfone Max Pro M2
 PRODUCT_MANUFACTURER := asus
 TARGET_VENDOR_PRODUCT_NAME := X01BD
 TARGET_VENDOR_DEVICE_NAME := X01BD
