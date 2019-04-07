@@ -69,6 +69,11 @@ on boot
     chmod 644 /proc/tpd_gesture
     write /proc/tpd_gesture 1
 
+# Set ASUS-specific SKU and version
+# Apparently they need to be set late at boot; weird flex but OK
+on property:init.svc.adbd=stopped
+    exec u:r:recovery:s0 root root -- /sbin/set_version.sh
+
 on property:crypto.ready=0
     stop sbinqseecomd
     stop keymaster-3-0
