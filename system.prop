@@ -1,0 +1,8 @@
+ro.build.model=ASUS_X01BD
+ro.build.device=X01BD
+ro.product.device=ASUS_X01BD_1
+ro.product.model=ASUS_X01BDA
+ro.product.name=WW_X01BD
+
+ro.board.platform=sdm660
+ro.product.board=sdm660
